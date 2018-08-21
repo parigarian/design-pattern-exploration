@@ -1,16 +1,22 @@
 # Discount System
 
 This project calculated discount on the given bill based on various rules. 
-It also demonstrated how various Object Oriented Design Patterns in configuring various rules using strate
+
+It also demonstrated how various Object Oriented Design Patterns are used and enumerated as following
+  1) Strategy pattern in injecting various strategies of combinging discounting rules.
+  2) Rules are abstracted with single interface so as combinging them parallely or serially as required.
+  3) Single main class namely DiscountCalculator is used for external modules to calculate discount and entire web logic is hidden      behind this main class.
 
 ## Class Diagram
 Following diagram illustrated the class diagram of data model to hold bill, item details, customer details etc.
+
 ![GitHub Logo](/class-diagram-2.png)
-Format: ![Alt Text](url)
+
 
 Following diagram illustrated the class diagram of logical or service layer
+
 ![GitHub Logo](/class-diagram-1.png)
-Format: ![Alt Text](url)
+
 
 ## Requirement
   - JDK 1.8
