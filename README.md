@@ -3,8 +3,13 @@
 This project calculated discount on the given bill based on various rules. 
 It also demonstrated how various Object Oriented Design Patterns in configuring various rules using strate
 
-## Restructured using Object oriented approach
-![GitHub Logo](/ClassDiagram.png)
+## Class Diagram
+Following diagram illustrated the class diagram of data model to hold bill, item details, customer details etc.
+![GitHub Logo](/class-diagram-2.png)
+Format: ![Alt Text](url)
+
+Following diagram illustrated the class diagram of logical or service layer
+![GitHub Logo](/class-diagram-1.png)
 Format: ![Alt Text](url)
 
 ## Requirement
