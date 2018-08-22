@@ -38,13 +38,19 @@ $ mvn clean test
 ```
 #### Local Sonar Environment
 ```sh
-$ mvn clean install sonar:sonar
+$ mvn clean package sonar:sonar
 ```
 #### External Sonar Environment
 ```sh
-$ mvn clean install -Dsonar.host.url=<url>
+$ mvn clean package -Dsonar.host.url=<url>
 ```
 ## Improvement Areas
 1) Using xml for rules configuration and their execution
 2) Developing and using a standard format for rules execution something on the likes of various rules engine
+
+## Sonar Report
+
+Given following is the project sonar report
+
+![GitHub Logo](/sonar-report.png)
 
