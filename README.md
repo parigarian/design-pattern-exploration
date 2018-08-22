@@ -1,4 +1,4 @@
-# Discount System
+# Discount Calculation System
 
 This project calculated discount on the given bill based on various rules. 
 
