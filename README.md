@@ -3,9 +3,9 @@
 This project calculated discount on the given bill based on various rules. 
 
 It also demonstrated how various Object Oriented Design Patterns are used and enumerated as following
-  1) Strategy pattern in injecting various strategies of combinging discounting rules.
+  1) Strategy pattern is injecting various strategies of combinging discounting rules.
   2) Rules are abstracted with single interface so as combinging them parallely or serially as required.
-  3) Single main class namely DiscountCalculator is used for external modules to calculate discount and entire web logic is hidden      behind this main class.
+  3) Single main class namely DiscountCalculator is used by external modules to calculate discount and entire web of logic is hidden      behind this main class.
 
 ## Class Diagram
 Following diagram illustrated the class diagram of data model to hold bill, item details, customer details etc.
@@ -44,3 +44,7 @@ $ mvn clean install sonar:sonar
 ```sh
 $ mvn clean install -Dsonar.host.url=<url>
 ```
+## Improvement Areas
+1) Using xml for rules configuration and their execution
+2) Developing and using a standard format for rules execution something on the likes of various rules engine
+
