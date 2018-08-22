@@ -11,7 +11,7 @@ public class CustomerDetails {
         EMPLOYEE,
         AFFILIATE,
         OTHERS
-    };
+    }
 
     public CustomerDetails(long customerId, String name, CustomerType customerType, Date creationDate) {
         this.customerId = customerId;

@@ -9,6 +9,9 @@ import java.util.Date;
 
 public class GenericUtilities {
 
+    private GenericUtilities(){
+
+    }
     public static double getNonGroceryBillTotal(BillDetails billDetails){
         double sum=0.0;
         for(ItemDetails itemDetails:billDetails.getItemDetailList()){

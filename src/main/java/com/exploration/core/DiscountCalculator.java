@@ -25,8 +25,5 @@ public class DiscountCalculator {
     public DiscountDetails calculateDiscount(BillDetails billDetails){
         return ruleExecutionStrategy.executeDiscountRules(billDetails);
     }
-    public static void main(String[] args){
-        System.out.println("Executing discount calculator");
-
-    }
+    
 }

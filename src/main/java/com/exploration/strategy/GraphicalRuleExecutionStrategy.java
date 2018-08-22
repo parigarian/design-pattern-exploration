@@ -29,9 +29,8 @@ public class GraphicalRuleExecutionStrategy implements IRuleExecutionStrategy {
      */
     public DiscountDetails executeDiscountRules(BillDetails billDetails) {
         DiscountDetails discountDetails=null;
-        if(discountDetails==null) {
-            discountDetails = affiliateEmployeeRule.apply(billDetails);
-        }
+        discountDetails = affiliateEmployeeRule.apply(billDetails);
+
         if(discountDetails==null){
             discountDetails=employeePercentageRule.apply(billDetails);
         }
