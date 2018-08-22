@@ -47,6 +47,7 @@ $ mvn clean package -Dsonar.host.url=<url>
 ## Improvement Areas
 1) Using xml for rules configuration and their execution
 2) Developing and using a standard format for rules execution something on the likes of various rules engine
+3) Integration and other test cases for edge scenarios
 
 ## Sonar Report
 
